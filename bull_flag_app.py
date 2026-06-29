@@ -18,9 +18,9 @@ st.set_page_config(
 )
 
 # ── Production params (locked v1.0) ───────────────────
-SL            = 0.02
-TP            = 0.13
-MAX_HOLD      = 15
+SL            = 0.03
+TP            = 0.20
+MAX_HOLD      = 18
 NOTIONAL      = 2000.0
 MAX_POSITIONS = 10
 TRADING_DAYS  = 252
@@ -28,12 +28,12 @@ PERIOD        = "5y"
 BATCH_SIZE    = 20
 
 # Detection constants
-POLE_MIN_BARS  = 5;   POLE_MAX_BARS  = 15
-POLE_MIN_PCT   = 0.08; POLE_MAX_PCT  = 0.20
-FLAG_MIN_BARS  = 3;   FLAG_MAX_BARS  = 10
-MAX_RETRACE    = 0.382; MIN_RETRACE  = 0.05
-MAX_FLAG_RANGE = 0.50
-BRK_BUFFER     = 0.002
+POLE_MIN_BARS  = 4;   POLE_MAX_BARS  = 14
+POLE_MIN_PCT   = 0.06; POLE_MAX_PCT  = 0.26
+FLAG_MIN_BARS  = 2;   FLAG_MAX_BARS  = 8
+MAX_RETRACE    = 0.35; MIN_RETRACE  = 0.05
+MAX_FLAG_RANGE = 0.40
+BRK_BUFFER     = 0.003
 
 # ── Universe ──────────────────────────────────────────
 TICKERS = [
